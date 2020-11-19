@@ -1,7 +1,9 @@
 #include<stdio.h>
 void main(){
-int i;
-for(i=2020;i<=2023;i++){
-printf("%d\n",i);
-}
+	int i[]={2020,2021,2022,2023};
+	int a;
+	for(a=0;a<=3;a++)
+printf("%d\n",i[a]);
+
+
 }
