@@ -12,6 +12,6 @@ else if(a>=1001&&a<20000){
 printf("土豪打工人");
 }
 else{
-	printf("错了");
+printf("错了");
 }
 }
