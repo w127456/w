@@ -1,6 +1,7 @@
 #include<stdio.h>
 void main(){
 int n;
+printf("欢迎使用，爱用不用\n");
 printf("QS大学排名\n");
 scanf("%d",&n);
 switch(n){
