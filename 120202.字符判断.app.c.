@@ -1,0 +1,13 @@
+#include<stdio.h>
+void main(){
+char n;
+printf("欢迎使用，爱用不用\n");
+scanf("%c",&n);
+switch(n){
+	case 'w':printf("上");break;
+	case 's':printf("下");break;
+	case 'a':printf("左");break;
+	case 'd':printf("右");break;
+	default:printf("错了");break;
+}
+}
