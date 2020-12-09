@@ -6,6 +6,7 @@ char a[]="春节";
 char b[]="端午节";
 char c[]="中秋节";
 char d[]="元宵节";
+printf("欢迎来到爱吃不吃，爱过不过小程序\n");
 scanf("%s",&i);
 if(strcmp(a,i)==0){
     printf("爷要吃饺子");
